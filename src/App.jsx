@@ -11,9 +11,9 @@ function App() {
   <>
   <BrowserRouter>
    <Routes>
-    <Route></Route>
-     <Route path=':AppTitle/blogCard' element={ <BlogCard/> }></Route>
-     <Route path=':AppTitle/testimonialCard' element={<TestimonialCard/>} ></Route>
+     <Route path='/marketingApp' element={<BlogCard/>} > </Route>
+     <Route path='/marketingApp/blogCard' element={ <BlogCard/> }></Route>
+     <Route path='/marketingApp/testimonialCard' element={<TestimonialCard/>} ></Route>
      <Route path='*' element={<ErrorPage/>}/>
    </Routes>
   </BrowserRouter>
