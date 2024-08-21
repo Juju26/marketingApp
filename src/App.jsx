@@ -4,16 +4,17 @@ import './App.css'
 import { Router,BrowserRouter,Routes,Route } from 'react-router-dom'
 import BlogCard from './Components/BlogCard'
 import TestimonialCard from './Components/TestimonialCard'
-
+import ErrorPage from './Components/ErrorPage'
 function App() {
-  const [count, setCount] = useState(0)
-
+  const AppTitle="marketingApp"
   return (
   <>
   <BrowserRouter>
    <Routes>
-     <Route path='/blogCard' element={ <BlogCard/> }></Route>
-     <Route path='/testimonialCard' element={<TestimonialCard/>} ></Route>
+    <Route></Route>
+     <Route path=':AppTitle/blogCard' element={ <BlogCard/> }></Route>
+     <Route path=':AppTitle/testimonialCard' element={<TestimonialCard/>} ></Route>
+     <Route path='*' element={<ErrorPage/>}/>
    </Routes>
   </BrowserRouter>
   </>
