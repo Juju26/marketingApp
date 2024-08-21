@@ -1,0 +1,64 @@
+.testimonialCard{
+.credits {
+    color: #777;
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .credits a {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .card-container {
+    margin-top: 200px;
+    margin-bottom: auto;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    border-radius: 8px;
+  }
+  
+  .card-flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card-pic {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 43px;
+    padding-left: 2px;
+  }
+  
+  .card-userName {
+    padding-left: 16px;
+  }
+  .card-userPrimaryName {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-userHandle {
+    font-size: 14px;
+    color: #525252;
+  
+  }
+  
+  .card-userAbout {
+    font-size: 16px;
+    margin-top: 16px;
+    color: #525252;
+  }
+}

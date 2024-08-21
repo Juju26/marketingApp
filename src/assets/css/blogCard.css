@@ -1,0 +1,105 @@
+.blogCard{
+.credits {
+    color: #777;
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .credits a {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .card-container {
+    margin-top: 120px;
+  }
+  
+  .card-flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+  }
+  .coverImage {
+    object-fit: cover;
+  }
+  img{
+    border-radius: 8px 8px 0px 0px;
+  }
+  
+  
+  .catagory {
+    background-color: #f0fdf4;
+    opacity: 100%;
+    border-color: #bbf7d0;
+    border-width: 1px;
+    color: #15803d;
+    margin-top: 2px;
+    border-radius: 9999px;
+    width: 67px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Noto Sans";
+  }
+  
+  .cardDetails {
+    padding: 24px 16px;
+  }
+  
+  .title {
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 8px;
+  
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+  }
+  
+  .description {
+    font-family: "Noto Sans";
+    font-size: 16px;
+    color: #525252;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+  .CTA {
+    display: flex;
+    color: #4338ca;
+    margin-top: 24px;
+    gap: 6px;
+  }
+  
+  .CTA :focus {
+    text-decoration: none;
+    border-color: #ffffff;
+    border-radius: 3px;
+  }
+  
+  .cta-button {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .arrow {
+    width: 20px;
+    height: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
