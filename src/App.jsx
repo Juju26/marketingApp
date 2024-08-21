@@ -9,14 +9,12 @@ function App() {
   const AppTitle="marketingApp"
   return (
   <>
-  <BrowserRouter>
    <Routes>
      <Route path='/marketingApp' element={<BlogCard/>} > </Route>
      <Route path='/marketingApp/blogCard' element={ <BlogCard/> }></Route>
      <Route path='/marketingApp/testimonialCard' element={<TestimonialCard/>} ></Route>
      <Route path='*' element={<ErrorPage/>}/>
    </Routes>
-  </BrowserRouter>
   </>
   )
 }
