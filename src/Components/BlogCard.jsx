@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../assets/css/blogCard.css'
 import blogCoverImg from '../assets/imgs/spacejoy-YqFz7UMm8qE-unsplash.jpg' 
 
 function BlogCard() {
+  const [app,setApp]=useState()
   return (
   <>
   <div className='blogCard'>

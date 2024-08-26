@@ -1,0 +1,81 @@
+.card-container{
+    margin-top: 120px;
+    margin-bottom: auto;
+    font-family: 'Noto Sans';
+}
+
+
+.card{
+    background-color: #ffffff;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.card-profile{
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.card-profilePic{
+    width: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+
+.card-profileDetails{
+    font-family: 'Noto Sans';
+    text-align: center;
+}
+.card-profileName{
+    font-size: 20px;
+    margin-top: 24px;
+    color: #171717;
+    font-weight: 600;
+    font-family: 'Noto Sans';
+}
+.card-jobTitle{
+    font-size: 14px;
+    color: #525252;
+}
+
+.card-profileDescription{
+    margin-top: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #525252;
+    padding:  0px 16px 0px 16px ;
+}
+
+.card-contactMe{
+    margin-top: 40px;
+    width: 50px;
+    background-color: #4338CA;
+    border-radius: 4px;
+    width: calc(100% - 32px);
+    padding:0px 16px 0px 16px;
+    margin-left: 16px;
+    display: inline-block;
+    margin-bottom: 24px;
+    height: 44px;
+    color: #ffffff;
+    
+}
+
+.card-socialProfiles{
+    display: inline-block;
+    justify-content: center;
+    color: #4338CA;
+    padding:0px 16px 24px 16px;  
+
+    
+}
+
+.linkedin{
+    color: #4338CA;
+}
